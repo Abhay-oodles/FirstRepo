@@ -9,7 +9,7 @@ import lombok.ToString;
 @ToString
 @Document(collection = "Employee")
 public class Employee {
- //Id
+ //Id of Employee
 	@Id
     private String id;
     private String name;
